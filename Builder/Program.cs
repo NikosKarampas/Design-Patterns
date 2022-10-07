@@ -23,7 +23,7 @@ public class CodeElement{
         this.Type = type;
         this.Text = text;
     }
-
+    
     private string OutputString(int indent){
         var sb = new StringBuilder();
         sb.Append($"public class {Text}\n\n");
