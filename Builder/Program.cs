@@ -45,16 +45,14 @@ public class CodeElement{
     }
 }
 
-public class CodeBuilder {        
-    private readonly string className;
+public class CodeBuilder {
     
     public CodeBuilder(string className)
     {
-        this.className = className;
         root.Text = className;
     }
 
-    CodeElement root = new CodeElement();    
+    private CodeElement root = new CodeElement();    
 
     public CodeBuilder AddField(string propertyType, string text){
         root.codeElements.Add(new CodeElement(propertyType, text));
