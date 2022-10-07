@@ -23,7 +23,7 @@ public class CodeElement{
         this.Type = type;
         this.Text = text;
     }
-    
+
     private string OutputString(int indent){
         var sb = new StringBuilder();
         sb.Append($"public class {Text}\n\n");
@@ -32,7 +32,7 @@ public class CodeElement{
         foreach (var codeElement in codeElements)
         {
             var i = new string(' ', indentSize * indent);
-            sb.Append($"{i}public {codeElement.Type} {codeElement.Text}\n");
+            sb.Append($"{i}public {codeElement.Type} {codeElement.Text};\n");
         }
         sb.Append("\n");
         sb.Append("}");
