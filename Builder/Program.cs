@@ -26,7 +26,7 @@ public class CodeElement{
 
     private string OutputString(int indent){
         var sb = new StringBuilder();
-        sb.Append($"public class {Text}\n\n");
+        sb.Append($"public class {Text}\n");
         sb.Append("{\n");
 
         foreach (var codeElement in codeElements)
@@ -34,7 +34,6 @@ public class CodeElement{
             var i = new string(' ', indentSize * indent);
             sb.Append($"{i}public {codeElement.Type} {codeElement.Text};\n");
         }
-        sb.Append("\n");
         sb.Append("}");
 
         return sb.ToString();
