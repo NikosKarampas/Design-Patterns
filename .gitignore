@@ -15,3 +15,5 @@ Bridge/obj/
 Bridge/bin/Debug/net6.0/
 Composite/obj/
 Composite/bin/Debug/net6.0/
+Decorator/obj/
+Decorator/bin/Debug/net6.0/
