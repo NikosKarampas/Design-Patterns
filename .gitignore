@@ -21,3 +21,5 @@ Flyweight/obj/
 Flyweight/bin/Debug/net6.0/
 Proxy/obj/
 Proxy/bin/Debug/net6.0/
+Command/obj/
+Command/bin/Debug/net6.0/
