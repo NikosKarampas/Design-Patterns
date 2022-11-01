@@ -27,4 +27,6 @@ Iterator/obj/
 Iterator/bin/Debug/net6.0/
 Mediator/obj/
 Mediator/bin/Debug/net6.0/
+Observer/obj/
+Observer/bin/Debug/net6.0/
 
